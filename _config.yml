@@ -1,0 +1,13 @@
+collections:
+  actors:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "actors"
+    values:
+      layout: "actor"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
