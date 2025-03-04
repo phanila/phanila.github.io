@@ -3,7 +3,9 @@ layout: actor
 name: Kevin Spacey
 image: https://fwcdn.pl/fph/00/36/620036/506493_3.2.jpg
 url: /person/Kevin+Spacey-105
-short_name: spacey
+number: 22
+duck_image: https://arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/GSS7JPQHW4I6TDTBWPNDHR2GQU.jpg
+short_name: 22spacey
 ---
 [link do filmweba](https://www.filmweb.pl/person/Kevin+Spacey-105) - źródło danych
 

@@ -3,7 +3,9 @@ layout: actor
 name: Anthony Hopkins
 image: https://fwcdn.pl/fph/10/47/1047/406883_4.2.jpg
 url: /person/Anthony+Hopkins-48
-short_name: hopkins
+number: 7
+duck_image: http://images6.fanpop.com/image/photos/41100000/Anthony-Hopkins-sir-anthony-hopkins-41110289-1572-2000.jpg
+short_name: 07hopkins
 ---
 [link do filmweba](https://www.filmweb.pl/person/Anthony+Hopkins-48) - źródło danych
 

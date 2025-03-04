@@ -3,7 +3,9 @@ layout: actor
 name: Travis Fimmel
 image: https://fwcdn.pl/fph/90/55/659055/553153_3.2.jpg
 url: /person/Travis+Fimmel-294493
-short_name: fimmel
+number: 9
+duck_image: https://netstorage-legit.akamaized.net/images/8f76f9018a61673a.jpg?imwidth=900
+short_name: 09fimmel
 ---
 [link do filmweba](https://www.filmweb.pl/person/Travis+Fimmel-294493) - źródło danych
 

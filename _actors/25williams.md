@@ -3,7 +3,9 @@ layout: actor
 name: Robin Williams
 image: https://fwcdn.pl/fph/12/62/1262/335628_5.2.jpg
 url: /person/Robin+Williams-223
-short_name: williams
+number: 25
+duck_image: https://images.mubicdn.net/images/cast_member/23627/cache-2976-1539119722/image-w856.jpg?size=800x
+short_name: 25williams
 ---
 [link do filmweba](https://www.filmweb.pl/person/Robin+Williams-223) - źródło danych
 
@@ -28,4 +30,4 @@ short_name: williams
 
 ## linki do stron znalezione przez kaczkę:
 - [Robin Williams - Wikipedia](https://en.wikipedia.org/wiki/Robin_Williams)
-- [Robin Williams - IMDb](https://www.imdb.com/name/nm0000245/)
+- [Robin Williams' Death And The Horrific Disease Behind It - All That's ...](https://allthatsinteresting.com/robin-williams-death)

@@ -3,7 +3,9 @@ layout: actor
 name: Al Pacino
 image: https://fwcdn.pl/fph/10/93/1093/415146_4.2.jpg
 url: /person/Al+Pacino-78
-short_name: pacino
+number: 5
+duck_image: https://www.themodestman.com/wp-content/uploads/2019/12/Al-Pacino.jpg
+short_name: 05pacino
 ---
 [link do filmweba](https://www.filmweb.pl/person/Al+Pacino-78) - źródło danych
 

@@ -3,7 +3,9 @@ layout: actor
 name: Louis de Funès
 image: https://fwcdn.pl/fph/07/68/30768/504033_5.2.jpg
 url: /person/Louis+de+Fun%C3%A8s-42839
-short_name: de_funès
+number: 12
+duck_image: https://image.tmdb.org/t/p/original/8R8WVggSEKxxT4n2HRKHjxHrIQZ.jpg
+short_name: 12de_funès
 ---
 [link do filmweba](https://www.filmweb.pl/person/Louis+de+Fun%C3%A8s-42839) - źródło danych
 

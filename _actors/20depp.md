@@ -3,7 +3,9 @@ layout: actor
 name: Johnny Depp
 image: https://fwcdn.pl/fph/73/09/37309/216062_4.2.jpg
 url: /person/Johnny+Depp-29
-short_name: depp
+number: 20
+duck_image: https://www.masala.com/cloud/2025/02/27/Johnny-Depp-1568x882.jpg
+short_name: 20depp
 ---
 [link do filmweba](https://www.filmweb.pl/person/Johnny+Depp-29) - źródło danych
 

@@ -3,7 +3,9 @@ layout: actor
 name: Alan Rickman
 image: https://fwcdn.pl/fph/60/21/476021/247365_3.2.jpg
 url: /person/Alan+Rickman-89
-short_name: rickman
+number: 8
+duck_image: https://media.gq-magazine.co.uk/photos/5d1398ac9a22c28c5a9480e1/master/w_1600,c_limit/GQ-Jul-1992-Alan-Rickman-02-GQ-13Jan16_Gerald_Forster_b.jpg
+short_name: 08rickman
 ---
 [link do filmweba](https://www.filmweb.pl/person/Alan+Rickman-89) - źródło danych
 

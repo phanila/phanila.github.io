@@ -3,7 +3,9 @@ layout: actor
 name: Jack Nicholson
 image: https://fwcdn.pl/fph/10/19/1019/409449_6.2.jpg
 url: /person/Jack+Nicholson-75
-short_name: nicholson
+number: 2
+duck_image: https://cdn.amomama.com/64ae8767c4f6897556c78b3e64d00784.jpeg?width=2271&height=3000
+short_name: 02nicholson
 ---
 [link do filmweba](https://www.filmweb.pl/person/Jack+Nicholson-75) - źródło danych
 

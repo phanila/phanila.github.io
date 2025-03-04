@@ -3,7 +3,9 @@ layout: actor
 name: Bryan Cranston
 image: https://fwcdn.pl/fph/06/68/430668/156994_4.2.jpg
 url: /person/Bryan+Cranston-66430
-short_name: cranston
+number: 16
+duck_image: https://www.networthlists.com/wp-content/uploads/2020/10/Net-Worth-of-Bryan-Cranston.jpg
+short_name: 16cranston
 ---
 [link do filmweba](https://www.filmweb.pl/person/Bryan+Cranston-66430) - źródło danych
 

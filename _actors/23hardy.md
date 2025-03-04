@@ -3,7 +3,9 @@ layout: actor
 name: Tom Hardy
 image: https://fwcdn.pl/fph/05/82/480582/144678_2.2.jpg
 url: /person/Tom+Hardy-57104
-short_name: hardy
+number: 23
+duck_image: http://networthsize.com/wp-content/uploads/2020/05/Tom-Hardy.png
+short_name: 23hardy
 ---
 [link do filmweba](https://www.filmweb.pl/person/Tom+Hardy-57104) - źródło danych
 

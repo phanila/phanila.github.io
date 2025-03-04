@@ -3,7 +3,9 @@ layout: actor
 name: Christoph Waltz
 image: https://fwcdn.pl/fph/77/47/137747/165712_4.2.jpg
 url: /person/Christoph+Waltz-69501
-short_name: waltz
+number: 19
+duck_image: https://prabook.com/web/show-photo.jpg?id=2753389
+short_name: 19waltz
 ---
 [link do filmweba](https://www.filmweb.pl/person/Christoph+Waltz-69501) - źródło danych
 

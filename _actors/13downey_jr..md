@@ -3,7 +3,9 @@ layout: actor
 name: Robert Downey Jr.
 image: https://fwcdn.pl/fph/05/42/790542/810037_2.2.jpg
 url: /person/Robert+Downey+Jr.-31
-short_name: downey_jr.
+number: 13
+duck_image: http://br.web.img2.acsta.net/pictures/18/06/29/00/35/0101925.jpg
+short_name: 13downey_jr.
 ---
 [link do filmweba](https://www.filmweb.pl/person/Robert+Downey+Jr.-31) - źródło danych
 

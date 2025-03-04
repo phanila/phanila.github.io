@@ -3,7 +3,9 @@ layout: actor
 name: Tom Hanks
 image: https://fwcdn.pl/fph/09/98/998/182098_3.2.jpg
 url: /person/Tom+Hanks-124
-short_name: hanks
+number: 17
+duck_image: https://doyouremember.com/wp-content/uploads/2020/07/tom-hanks-scaled.jpg
+short_name: 17hanks
 ---
 [link do filmweba](https://www.filmweb.pl/person/Tom+Hanks-124) - źródło danych
 

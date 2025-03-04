@@ -3,7 +3,9 @@ layout: actor
 name: Jonathan Banks
 image: https://fwcdn.pl/fph/76/45/697645/560974_3.2.jpg
 url: /person/Jonathan+Banks-40195
-short_name: banks
+number: 21
+duck_image: https://elfinalde.s3-accelerate.amazonaws.com/2016/01/s6K0lromCtmSTzuX9hig8OPiRsC-1-683x1024.jpg
+short_name: 21banks
 ---
 [link do filmweba](https://www.filmweb.pl/person/Jonathan+Banks-40195) - źródło danych
 

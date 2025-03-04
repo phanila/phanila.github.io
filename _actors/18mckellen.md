@@ -3,7 +3,9 @@ layout: actor
 name: Ian McKellen
 image: https://fwcdn.pl/fph/10/65/1065/447329_4.2.jpg
 url: /person/Ian+McKellen-6149
-short_name: mckellen
+number: 18
+duck_image: https://www.themoviedb.org/t/p/original/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg
+short_name: 18mckellen
 ---
 [link do filmweba](https://www.filmweb.pl/person/Ian+McKellen-6149) - źródło danych
 

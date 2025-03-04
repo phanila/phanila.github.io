@@ -3,7 +3,9 @@ layout: actor
 name: Clint Eastwood
 image: https://fwcdn.pl/fph/65/80/476580/122350_3.2.jpg
 url: /person/Clint+Eastwood-122
-short_name: eastwood
+number: 10
+duck_image: https://1.bp.blogspot.com/-NBq49bxjDJA/YLPO19kwDnI/AAAAAAAEGUk/lKNfiqsrIAEay-gXSf-fzfnlsMi6JYYnACLcBGAsYHQ/s798/clint-eastwood-1.jpg
+short_name: 10eastwood
 ---
 [link do filmweba](https://www.filmweb.pl/person/Clint+Eastwood-122) - źródło danych
 

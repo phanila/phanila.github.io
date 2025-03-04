@@ -3,7 +3,9 @@ layout: actor
 name: Joe Pesci
 image: https://fwcdn.pl/fph/10/33/1033/413088_4.2.jpg
 url: /person/Joe+Pesci-82
-short_name: pesci
+number: 14
+duck_image: https://ntvb.tmsimg.com/assets/assets/1339_v9_bb.jpg
+short_name: 14pesci
 ---
 [link do filmweba](https://www.filmweb.pl/person/Joe+Pesci-82) - źródło danych
 

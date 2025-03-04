@@ -3,7 +3,9 @@ layout: actor
 name: Bob Odenkirk
 image: https://fwcdn.pl/fph/76/45/697645/560941_3.2.jpg
 url: /person/Bob+Odenkirk-5867
-short_name: odenkirk
+number: 3
+duck_image: https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TAWAZ6JFPJPFDL3RQZ5RZMZFUI.jpg
+short_name: 03odenkirk
 ---
 [link do filmweba](https://www.filmweb.pl/person/Bob+Odenkirk-5867) - źródło danych
 

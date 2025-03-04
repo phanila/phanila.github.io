@@ -3,7 +3,9 @@ layout: actor
 name: Heath Ledger
 image: https://fwcdn.pl/fph/63/51/236351/371741_3.2.jpg
 url: /person/Heath+Ledger-6322
-short_name: ledger
+number: 15
+duck_image: https://i.pinimg.com/originals/9c/47/dc/9c47dc4f4ea8642b363a2529ff050c20.jpg
+short_name: 15ledger
 ---
 [link do filmweba](https://www.filmweb.pl/person/Heath+Ledger-6322) - źródło danych
 

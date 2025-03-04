@@ -3,7 +3,9 @@ layout: actor
 name: Joaquin Phoenix
 image: https://fwcdn.pl/fph/01/67/810167/833491_2.2.jpg
 url: /person/Joaquin+Phoenix-5028
-short_name: phoenix
+number: 1
+duck_image: https://cdn.britannica.com/63/215263-050-6C78005B/American-actor-Joaquin-Phoenix-2020.jpg
+short_name: 01phoenix
 ---
 [link do filmweba](https://www.filmweb.pl/person/Joaquin+Phoenix-5028) - źródło danych
 

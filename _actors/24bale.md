@@ -3,7 +3,9 @@ layout: actor
 name: Christian Bale
 image: https://fwcdn.pl/fph/73/77/107377/217216_5.2.jpg
 url: /person/Christian+Bale-3238
-short_name: bale
+number: 24
+duck_image: https://hips.hearstapps.com/hmg-prod/images/GettyImages-504405052.jpg
+short_name: 24bale
 ---
 [link do filmweba](https://www.filmweb.pl/person/Christian+Bale-3238) - źródło danych
 
@@ -28,4 +30,4 @@ short_name: bale
 
 ## linki do stron znalezione przez kaczkę:
 - [Christian Bale - Wikipedia](https://en.wikipedia.org/wiki/Christian_Bale)
-- [Christian Bale - IMDb](https://www.imdb.com/name/nm0000288/)
+- [Christian Bale filmography - Wikipedia](https://en.wikipedia.org/wiki/Christian_Bale_filmography)

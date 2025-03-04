@@ -3,7 +3,9 @@ layout: actor
 name: Cillian Murphy
 image: https://fwcdn.pl/fph/09/81/680981/447735_2.2.jpg
 url: /person/Cillian+Murphy-84517
-short_name: murphy
+number: 6
+duck_image: https://cdn.britannica.com/10/215010-050-A44F9280/Irish-actor-Cillian-Murphy-2017.jpg
+short_name: 06murphy
 ---
 [link do filmweba](https://www.filmweb.pl/person/Cillian+Murphy-84517) - źródło danych
 

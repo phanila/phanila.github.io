@@ -3,7 +3,9 @@ layout: actor
 name: Leonardo DiCaprio
 image: https://fwcdn.pl/fph/12/36/1236/411260_4.2.jpg
 url: /person/Leonardo+DiCaprio-30
-short_name: dicaprio
+number: 4
+duck_image: https://www.themoviedb.org/t/p/original/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg
+short_name: 04dicaprio
 ---
 [link do filmweba](https://www.filmweb.pl/person/Leonardo+DiCaprio-30) - źródło danych
 

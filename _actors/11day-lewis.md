@@ -3,7 +3,9 @@ layout: actor
 name: Daniel Day-Lewis
 image: https://fwcdn.pl/fph/91/66/239166/111642_3.2.jpg
 url: /person/Daniel+Day+Lewis-159
-short_name: day-lewis
+number: 11
+duck_image: https://www.thesun.ie/wp-content/uploads/sites/3/2017/06/sunfea_60134612jpg-js215364845.jpg
+short_name: 11day-lewis
 ---
 [link do filmweba](https://www.filmweb.pl/person/Daniel+Day+Lewis-159) - źródło danych
 
