@@ -1,5 +1,5 @@
 ---
-title: Actors
+title: Aktorzy
 ---
 <nav>
     {% for item in site.data.navigation %}
@@ -8,7 +8,7 @@ title: Actors
       </a>
     {% endfor %}
   </nav>
-<h1>Actor list</h1>
+<h1>Lista aktorów</h1>
 
 <ul>
   {% for actor in site.actors %}

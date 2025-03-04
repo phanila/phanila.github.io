@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: O mnie
 ---
 <nav>
   {% for item in site.data.navigation %}
@@ -10,6 +10,6 @@ title: About
   {% endfor %}
 </nav>
 
-# About page
+# O mnie
 
-This page tells you a little bit about me, which is not much, as you can see.
+Ta strona mówi o mnie, czego jak widać nie ma dużo.
