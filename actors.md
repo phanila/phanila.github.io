@@ -9,11 +9,12 @@ title: Aktorzy
     {% endfor %}
   </nav>
 <h1>Lista aktorów</h1>
+<a href="https://www.filmweb.pl/ranking/person/actors/male">Źródło</a>
 
 <ul>
   {% for actor in site.actors %}
     <li>
-      <h2><a href="{{ actor.url }}">{{ actor.name }}</a></h2>
+      <h2><a href="{{ actor.url }}">{{actor.number}}. {{ actor.name }}</a></h2>
       <img src = "{{ actor.image }}">
       <p>
       <br>

@@ -21,11 +21,15 @@ elem = WebDriverWait(driver, 10).until(
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 
 ranking_elements = soup.find_all(class_="rankingTypePerson")
+i = 0
 for elem in ranking_elements:
+    i += 1
     actor = {"name": elem.find(class_="rankingTypePerson__title").text, 
         # taking 1 element, because 0 one is with current photo, which is harder to recognize for me
-          "image": elem.find_all("img")[1].attrs['src'], "url": elem.find(class_="rankingTypePerson__title").attrs['href']}
-    actor["short_name"] = '_'.join(actor["name"].split()[1:]).lower()
+          "image": elem.find_all("img")[1].attrs['src'], "url": elem.find(class_="rankingTypePerson__title").attrs['href'],
+          "number": i}
+    actor["duck_image"] = DDGS().images(keywords=f"{actor["name"]}")[0].get("image")
+    actor["short_name"] = str(i).zfill(2) + '_'.join(actor["name"].split()[1:]).lower()
     print(actor["short_name"])
     lines = ["---\nlayout: actor\n"]
     for key,value in actor.items():
@@ -62,4 +66,3 @@ for elem in ranking_elements:
         
     with open(f"_actors/{actor["short_name"]}.md", "w") as f:
         f.writelines(lines)
-    
