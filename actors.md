@@ -7,11 +7,13 @@ title: Aktorzy
         {{ item.name }}
       </a>
     {% endfor %}
-  </nav>
+</nav>
+<label for="file">Procent aktorów pokazanych na tej stronie</label>
+<progress id="file" value="32" max="100"> 1% </progress>
 <h1>Lista aktorów</h1>
 <a href="https://www.filmweb.pl/ranking/person/actors/male">Źródło</a>
 
-<ul>
+<ol>
   {% for actor in site.actors %}
     <li>
       <h2><a href="{{ actor.url }}">{{actor.number}}. {{ actor.name }}</a></h2>
@@ -21,4 +23,4 @@ title: Aktorzy
       </p>
     </li>
   {% endfor %}
-</ul>
+</ol>
