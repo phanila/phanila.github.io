@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: about_me
 title: O mnie
 ---
 <nav>
-  {% for item in site.data.navigation %}
+{% for item in site.data.navigation %}
     <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
       {{ item.name }}
     </a>
-  {% endfor %}
+{% endfor %}
 </nav>
 
 # O mnie
