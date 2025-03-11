@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <header>Coś na początek</header>
+    <article>
+    {{ content }}
+    <details>
+        <summary>Opis mnie</summary>
+        <p>
+            Przecież już wszystko wiesz
+        </p>
+    </details>
+    <table>
+        <caption>tabelka</caption>
+        <tr>
+          <th>pytanie</th>
+          <th>odpowiedź</th>
+        </tr>
+        <tr>
+          <td>Czy to tabela?</td>
+          <td>Czy ma sens?</td>
+        </tr>
+        <tr>
+          <td>Tak</td>
+          <td>Chyba nie</td>
+        </tr>
+      </table>
+      <p>
+        Czy tabela ma sens?
+      </p>
+      <form>
+        <label for="answer">Wybór:</label>
+
+        <select name="answer" id="answer">
+          <option value="tak">Tak</option>
+          <option value="nie"><strong>Nie</strong></option>
+        </select>
+        <label for="opis">Dlaczego?</label><br>
+        <input type="text" id="opis" name="opis" value=""><br>
+        <input type="submit" value="Submit">
+      </form>
+    </article>
+      <footer><p>
+        Copyright © 2025 
+      </p></footer>
+  </body>
+</html>
