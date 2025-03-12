@@ -17,10 +17,7 @@ title: Aktorzy
 {% for actor in site.actors %}
     <li>
       <h2><a href="{{ actor.url }}">{{ actor.name }}</a></h2>
-      <img src = "{{ actor.image }}" alt="Photo of {{ actor.name }}"/>
-      <p>
-      <br/>
-      </p>
+      {{ "![Photo](" | append: actor.image | append: ")" | markdownify }}
     </li>
 {% endfor %}
 </ol>

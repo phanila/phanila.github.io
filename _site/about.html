@@ -35,18 +35,20 @@
     </details>
     <table>
         <caption>tabelka</caption>
-        <tr>
-          <th>pytanie</th>
-          <th>odpowiedź</th>
-        </tr>
-        <tr>
-          <td>Czy to tabela?</td>
-          <td>Tak</td>
-        </tr>
-        <tr>
-          <td>Czy ma sens?</td>
-          <td>Chyba <strong>nie</strong></td>
-        </tr>
+        <tbody>
+          <tr>
+            <th scope="col">pytanie</th>
+            <th scope="col">odpowiedź</th>
+          </tr>
+          <tr>
+            <td>Czy to tabela?</td>
+            <td>Tak</td>
+          </tr>
+          <tr>
+            <td>Czy ma sens?</td>
+            <td>Chyba <strong>nie</strong></td>
+          </tr>
+        </tbody>
       </table>
       <p>
         Czy tabela ma sens?
@@ -63,6 +65,13 @@
         <button type="submit">Prześlij</button>
 
       </form>
+      <img src="assets/mapimage" alt="map" usemap="#workmap" width="400" height="379">
+
+      <map name="workmap">
+        <area shape="rect" coords="50,100,120,379" alt="Ja" href="about.html">
+        <area shape="rect" coords="170,75,240,379" alt="Mój ojciec" href="/">
+        <area shape="rect" coords="130,100,165,150" alt="Filmy" href="actors.html">
+      </map>
     </article>
       <footer><p>
         Copyright © 2025
