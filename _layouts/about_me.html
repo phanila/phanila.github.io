@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pl">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
@@ -26,7 +26,7 @@
         </tr>
         <tr>
           <td>Czy ma sens?</td>
-          <td>Chyba nie</td>
+          <td>Chyba <strong>nie</strong></td>
         </tr>
       </table>
       <p>
@@ -37,11 +37,12 @@
 
         <select name="answer" id="answer">
           <option value="tak">Tak</option>
-          <option value="nie"><strong>Nie</strong></option>
+          <option value="nie">Nie</option>
         </select>
         <label for="opis">Dlaczego?</label><br>
         <input type="text" id="opis" name="opis" value=""><br>
-        <input type="submit" value="Submit">
+        <button type="submit">Prześlij</button>
+
       </form>
     </article>
       <footer><p>

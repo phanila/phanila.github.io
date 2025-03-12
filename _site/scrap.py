@@ -53,7 +53,7 @@ for elem in ranking_elements:
         film_name = film_desc.text
         film_image = film.find('img').attrs['src']
         # film_image = DDGS().images(keywords=f"{actor["name"]} {film_name}")[0].get("image")
-        lines.append(f"- [{film_name}](https://www.filmweb.pl{url})\n![]({film_image})\n")
+        lines.append(f"- [{film_name}](https://www.filmweb.pl{url})\n![{film_name}]({film_image})\n")
 
     lines.append("\n\n## linki do stron znalezione przez kaczkę:\n")
     # wait to not scare duck so it doesn't think we overuse it
