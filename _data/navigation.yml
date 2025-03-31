@@ -1,6 +1,6 @@
-- name: Home
+- name: Strona główna
   link: /
-- name: About
+- name: O mnie
   link: /about.html
-- name: Actor list
+- name: Lista aktorów
   link: /actors.html

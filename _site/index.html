@@ -3,25 +3,60 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <nav>
-
-    <a href="/" style="color: red;">
-      Home
-    </a>
-
-    <a href="/about.html">
-      About
-    </a>
-
-    <a href="/actors.html">
-      Actor list
-    </a>
-
-</nav>
-
-<h1 id="lista-najlepszych-aktorów">Lista najlepszych aktorów</h1>
+    <nav class="bg-gray-800 p-4">
+    <div class="container mx-auto flex flex-row items-center justify-between">
+      
+      <!-- Navigation Links -->
+      <div class="flex space-x-6 items-center">
+        
+        <a href="/" 
+          class="text-white py-2 px-4 rounded-md hover:border-2 hover:border-blue-400 transition duration-300 relative
+          textborder-2 border-blue-400 bg-sky-400">
+          
+          Strona główna
+          
+          <!-- Add the pinging dot only if the link is active -->
+          
+          <span class="absolute top-0 right-0 -mr-2 -mt-2">
+            <span class="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-sky-400 opacity-75"></span>
+            <span class="relative inline-flex h-3 w-3 rounded-full bg-sky-500"></span>
+          </span>
+          
+          
+        </a>
+        
+        <a href="/about.html" 
+          class="text-white py-2 px-4 rounded-md hover:border-2 hover:border-blue-400 transition duration-300 relative
+          ">
+          
+          O mnie
+          
+          <!-- Add the pinging dot only if the link is active -->
+          
+          
+        </a>
+        
+        <a href="/actors.html" 
+          class="text-white py-2 px-4 rounded-md hover:border-2 hover:border-blue-400 transition duration-300 relative
+          ">
+          
+          Lista aktorów
+          
+          <!-- Add the pinging dot only if the link is active -->
+          
+          
+        </a>
+        
+      </div>
+    </div>
+  </nav>
+  
+    <div class="p-4">
+    <h1 id="lista-najlepszych-aktorów">Lista najlepszych aktorów</h1>
 
 <p>Mój stary to prawdziwy fanatyk filmów. Zna się na wszystkim – od klasyków po nowości. Kazał nam obejrzeć Ben-Hura, a w trakcie filmu zaczyna: „A ten aktor? Skąd go znasz?”. Potem podaje pierwszą podpowiedź: „Pamiętasz, gdzie grał?”. Wiadomo, że jak nie zgadniesz, to będzie kolejna: „A ten? Podpowiedź: grał w filmie nawiązującym do Casablanki”.</p>
 
@@ -31,5 +66,6 @@
 
 <p><a href="/actors.html">link do listy aktorów</a></p>
 
+  </div>
   </body>
 </html>

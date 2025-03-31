@@ -3,181 +3,543 @@
   <head>
     <meta charset="utf-8">
     <title>Aktorzy</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <nav>
-
-      <a href="/">
-        Home
-      </a>
-
-      <a href="/about.html">
-        About
-      </a>
-
-      <a href="/actors.html" style="color: red;">
-        Actor list
-      </a>
-
-</nav>
-<p><label for="file">Procent aktorów pokazanych na tej stronie</label></p>
+    <nav class="bg-gray-800 p-4">
+    <div class="container mx-auto flex flex-row items-center justify-between">
+      
+      <!-- Navigation Links -->
+      <div class="flex space-x-6 items-center">
+        
+        <a href="/" 
+          class="text-white py-2 px-4 rounded-md hover:border-2 hover:border-blue-400 transition duration-300 relative
+          ">
+          
+          Strona główna
+          
+          <!-- Add the pinging dot only if the link is active -->
+          
+          
+        </a>
+        
+        <a href="/about.html" 
+          class="text-white py-2 px-4 rounded-md hover:border-2 hover:border-blue-400 transition duration-300 relative
+          ">
+          
+          O mnie
+          
+          <!-- Add the pinging dot only if the link is active -->
+          
+          
+        </a>
+        
+        <a href="/actors.html" 
+          class="text-white py-2 px-4 rounded-md hover:border-2 hover:border-blue-400 transition duration-300 relative
+          textborder-2 border-blue-400 bg-sky-400">
+          
+          Lista aktorów
+          
+          <!-- Add the pinging dot only if the link is active -->
+          
+          <span class="absolute top-0 right-0 -mr-2 -mt-2">
+            <span class="absolute inline-flex h-3 w-3 animate-ping rounded-full bg-sky-400 opacity-75"></span>
+            <span class="relative inline-flex h-3 w-3 rounded-full bg-sky-500"></span>
+          </span>
+          
+          
+        </a>
+        
+      </div>
+    </div>
+  </nav>
+  
+    <div class="p-4">
+    <p><label for="file">Procent aktorów pokazanych na tej stronie</label></p>
 <progress id="file" value="32" max="100"> 1% </progress>
 <h1>Lista aktorów</h1>
 <p><a href="https://www.filmweb.pl/ranking/person/actors/male">Źródło</a></p>
 
-<ol>
-
-    <li>
-      <h2><a href="/actors/01phoenix.html">Joaquin Phoenix</a></h2>
-      <p><img src="https://fwcdn.pl/fph/01/67/810167/833491_2.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/02nicholson.html">Jack Nicholson</a></h2>
-      <p><img src="https://fwcdn.pl/fph/10/19/1019/409449_6.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/03odenkirk.html">Bob Odenkirk</a></h2>
-      <p><img src="https://fwcdn.pl/fph/76/45/697645/560941_3.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/04dicaprio.html">Leonardo DiCaprio</a></h2>
-      <p><img src="https://fwcdn.pl/fph/12/36/1236/411260_4.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/05pacino.html">Al Pacino</a></h2>
-      <p><img src="https://fwcdn.pl/fph/10/93/1093/415146_4.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/06murphy.html">Cillian Murphy</a></h2>
-      <p><img src="https://fwcdn.pl/fph/09/81/680981/447735_2.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/07hopkins.html">Anthony Hopkins</a></h2>
-      <p><img src="https://fwcdn.pl/fph/10/47/1047/406883_4.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/08rickman.html">Alan Rickman</a></h2>
-      <p><img src="https://fwcdn.pl/fph/60/21/476021/247365_3.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/09fimmel.html">Travis Fimmel</a></h2>
-      <p><img src="https://fwcdn.pl/fph/90/55/659055/553153_3.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/10eastwood.html">Clint Eastwood</a></h2>
-      <p><img src="https://fwcdn.pl/fph/65/80/476580/122350_3.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/11day-lewis.html">Daniel Day-Lewis</a></h2>
-      <p><img src="https://fwcdn.pl/fph/91/66/239166/111642_3.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/12de_fun%C3%A8s.html">Louis de Funès</a></h2>
-      <p><img src="https://fwcdn.pl/fph/07/68/30768/504033_5.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/13downey_jr.html">Robert Downey Jr.</a></h2>
-      <p><img src="https://fwcdn.pl/fph/05/42/790542/810037_2.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/14pesci.html">Joe Pesci</a></h2>
-      <p><img src="https://fwcdn.pl/fph/10/33/1033/413088_4.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/15ledger.html">Heath Ledger</a></h2>
-      <p><img src="https://fwcdn.pl/fph/63/51/236351/371741_3.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/16cranston.html">Bryan Cranston</a></h2>
-      <p><img src="https://fwcdn.pl/fph/06/68/430668/156994_4.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/17hanks.html">Tom Hanks</a></h2>
-      <p><img src="https://fwcdn.pl/fph/09/98/998/182098_3.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/18mckellen.html">Ian McKellen</a></h2>
-      <p><img src="https://fwcdn.pl/fph/10/65/1065/447329_4.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/19waltz.html">Christoph Waltz</a></h2>
-      <p><img src="https://fwcdn.pl/fph/77/47/137747/165712_4.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/20depp.html">Johnny Depp</a></h2>
-      <p><img src="https://fwcdn.pl/fph/73/09/37309/216062_4.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/21banks.html">Jonathan Banks</a></h2>
-      <p><img src="https://fwcdn.pl/fph/76/45/697645/560974_3.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/22spacey.html">Kevin Spacey</a></h2>
-      <p><img src="https://fwcdn.pl/fph/00/36/620036/506493_3.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/23hardy.html">Tom Hardy</a></h2>
-      <p><img src="https://fwcdn.pl/fph/05/82/480582/144678_2.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/24bale.html">Christian Bale</a></h2>
-      <p><img src="https://fwcdn.pl/fph/73/77/107377/217216_5.2.jpg" alt="Photo" /></p>
-
-    </li>
-
-    <li>
-      <h2><a href="/actors/25williams.html">Robin Williams</a></h2>
-      <p><img src="https://fwcdn.pl/fph/12/62/1262/335628_5.2.jpg" alt="Photo" /></p>
-
-    </li>
-
+<ol class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 mt-5">
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/01phoenix.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/01/67/810167/833491_2.2.jpg" alt="Joaquin Phoenix" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        1
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Joaquin Phoenix
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/02nicholson.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/10/19/1019/409449_6.2.jpg" alt="Jack Nicholson" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        2
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Jack Nicholson
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/03odenkirk.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/76/45/697645/560941_3.2.jpg" alt="Bob Odenkirk" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        3
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Bob Odenkirk
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/04dicaprio.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/12/36/1236/411260_4.2.jpg" alt="Leonardo DiCaprio" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        4
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Leonardo DiCaprio
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/05pacino.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/10/93/1093/415146_4.2.jpg" alt="Al Pacino" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        5
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Al Pacino
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/06murphy.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/09/81/680981/447735_2.2.jpg" alt="Cillian Murphy" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        6
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Cillian Murphy
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/07hopkins.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/10/47/1047/406883_4.2.jpg" alt="Anthony Hopkins" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        7
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Anthony Hopkins
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/08rickman.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/60/21/476021/247365_3.2.jpg" alt="Alan Rickman" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        8
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Alan Rickman
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/09fimmel.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/90/55/659055/553153_3.2.jpg" alt="Travis Fimmel" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        9
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Travis Fimmel
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/10eastwood.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/65/80/476580/122350_3.2.jpg" alt="Clint Eastwood" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        10
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Clint Eastwood
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/11day-lewis.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/91/66/239166/111642_3.2.jpg" alt="Daniel Day-Lewis" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        11
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Daniel Day-Lewis
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/12de_fun%C3%A8s.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/07/68/30768/504033_5.2.jpg" alt="Louis de Funès" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        12
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Louis de Funès
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/13downey_jr.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/05/42/790542/810037_2.2.jpg" alt="Robert Downey Jr." class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        13
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Robert Downey Jr.
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/14pesci.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/10/33/1033/413088_4.2.jpg" alt="Joe Pesci" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        14
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Joe Pesci
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/15ledger.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/63/51/236351/371741_3.2.jpg" alt="Heath Ledger" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        15
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Heath Ledger
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/16cranston.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/06/68/430668/156994_4.2.jpg" alt="Bryan Cranston" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        16
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Bryan Cranston
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/17hanks.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/09/98/998/182098_3.2.jpg" alt="Tom Hanks" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        17
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Tom Hanks
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/18mckellen.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/10/65/1065/447329_4.2.jpg" alt="Ian McKellen" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        18
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Ian McKellen
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/19waltz.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/77/47/137747/165712_4.2.jpg" alt="Christoph Waltz" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        19
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Christoph Waltz
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/20depp.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/73/09/37309/216062_4.2.jpg" alt="Johnny Depp" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        20
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Johnny Depp
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/21banks.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/76/45/697645/560974_3.2.jpg" alt="Jonathan Banks" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        21
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Jonathan Banks
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/22spacey.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/00/36/620036/506493_3.2.jpg" alt="Kevin Spacey" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        22
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Kevin Spacey
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/23hardy.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/05/82/480582/144678_2.2.jpg" alt="Tom Hardy" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        23
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Tom Hardy
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/24bale.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/73/77/107377/217216_5.2.jpg" alt="Christian Bale" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        24
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Christian Bale
+      </h2>
+    </div>
+  </a>
+</li>
+  
+    <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+  <a href="/actors/25williams.html" class="block">
+    <div class="grid items-center justify-center">
+      <!-- Photo at the top -->
+      <div class="w-32 h-32 mb-4 mx-auto">
+        <img src="https://fwcdn.pl/fph/12/62/1262/335628_5.2.jpg" alt="Robin Williams" class="w-full h-full object-cover rounded-lg" />
+      </div>
+      <!-- Number below the photo -->
+      <span class="flex-shrink-0 mx-auto w-8 h-8 bg-gray-200 rounded-lg text-center flex items-center justify-center mb-2">
+        25
+      </span>
+      <!-- Name below the number -->
+      <h2 class="text-center text-blue-900">
+        Robin Williams
+      </h2>
+    </div>
+  </a>
+</li>
+  
 </ol>
 
+  </div>
   </body>
 </html>

@@ -3,50 +3,65 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <header>Coś na początek</header>
-    <article>
-    {{ content }}
-    <details>
-        <summary>Opis mnie</summary>
-        <p>
+    {% include navigation.html %}
+    <header class="mb-8">Coś na początek</header>
+    <article class="m-8">
+      <div class="flex flex-wrap gap-6"> <!-- Increased gap -->
+        <div class="w-full sm:w-auto mb-6"> <!-- Added margin bottom to content -->
+          {{ content }}
+        </div>
+        <details class="w-full sm:w-auto mb-6"> <!-- Added margin bottom -->
+          <summary>Opis mnie</summary>
+          <p>
             Przecież już wszystko wiesz
-        </p>
-    </details>
-    <table>
-        <caption>tabelka</caption>
-        <tbody>
-          <tr>
-            <th scope="col">pytanie</th>
-            <th scope="col">odpowiedź</th>
-          </tr>
-          <tr>
-            <td>Czy to tabela?</td>
-            <td>Tak</td>
-          </tr>
-          <tr>
-            <td>Czy ma sens?</td>
-            <td>Chyba <strong>nie</strong></td>
-          </tr>
-        </tbody>
-      </table>
-      <p>
-        Czy tabela ma sens?
-      </p>
-      <form>
-        <label for="answer">Wybór:</label>
-
-        <select name="answer" id="answer">
-          <option value="tak">Tak</option>
-          <option value="nie">Nie</option>
-        </select>
-        <label for="opis">Dlaczego?</label><br>
-        <input type="text" id="opis" name="opis" value=""><br>
-        <button type="submit">Prześlij</button>
-
-      </form>
-      <img src="assets/mapimage" alt="map" usemap="#workmap" width="400" height="379">
+          </p>
+        </details>
+        <table class="table-auto p-4 border border-gray-300 w-full sm:w-auto mb-6"> <!-- Added margin bottom -->
+          <caption class="text-xl font-semibold mb-4">tabelka</caption> <!-- Increased margin bottom on caption -->
+          <thead>
+            <tr class="bg-gray-100">
+              <th scope="col" class="px-4 py-2 text-left">Pytanie</th>
+              <th scope="col" class="px-4 py-2 text-left">Odpowiedź</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-4 py-2">Czy to tabela?</td>
+              <td class="px-4 py-2">Tak</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-2">Czy ma sens?</td>
+              <td class="px-4 py-2">Chyba <strong>nie</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+          <p class="mb-4"> <!-- Added margin bottom to paragraph -->
+            Czy tabela ma sens?
+          </p>
+          <form class="w-full sm:w-auto">
+            <label for="answer" class="block mb-2"> <!-- Added margin bottom to label -->
+              Wybór:
+            </label>
+            <select name="answer" id="answer" class="block mb-4"> <!-- Increased margin bottom -->
+              <option value="tak">Tak</option>
+              <option value="nie">Nie</option>
+            </select>
+            <label for="opis" class="block mb-2"> <!-- Added margin bottom to label -->
+              Dlaczego?
+            </label><br>
+            <input type="text" id="opis" name="opis" class="block mb-4 w-full sm:w-auto" value=""><br> <!-- Increased margin bottom -->
+            <button type="submit" class="mt-4"> <!-- Added top margin -->
+              Prześlij
+            </button>
+          </form>
+        </div>
+      </div>
+      <img class="hide" src="assets/mapimage" alt="map" usemap="#workmap" width="400" height="379" class="mt-8"> <!-- Added top margin to image -->
 
       <map name="workmap">
         <area shape="rect" coords="50,100,120,379" alt="Ja" href="about.html">
@@ -54,8 +69,10 @@
         <area shape="rect" coords="130,100,165,150" alt="Filmy" href="actors.html">
       </map>
     </article>
-      <footer><p>
+    <footer class="m-8">
+      <p>
         Copyright © 2025
-      </p></footer>
+      </p>
+    </footer>
   </body>
 </html>

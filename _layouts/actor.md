@@ -10,4 +10,6 @@ layout: default
 <h1>{{ page.name }}</h1>
 <img src="{{page.image}}" alt="Photo of {{ page.name }}">
 <img src="{{page.duck_image}}" alt="Duck photo of {{ page.name }}" height="180">
+<div class="flex flex-col">
 {{ content }}
+</div>

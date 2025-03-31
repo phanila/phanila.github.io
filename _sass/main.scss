@@ -1,0 +1,84 @@
+@use 'sass:color';
+
+$font-stack: Helvetica, sans-serif;
+$background-color: #f0f0f0;
+$text-color: #333333;
+$link-color: #1a73e8;
+$hover-background-color: #ADD8E6;
+
+// Mixin do efektu hover
+@mixin hover-effect($bg-color) {
+  &:hover {
+    background-color: $bg-color;
+  }
+}
+
+// Mixin do media queries
+@mixin media-query($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
+
+body {
+  font: 100% $font-stack;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+details {
+  // Zastosowanie mixina hover
+  @include hover-effect($hover-background-color);
+
+  @include media-query(800px) {
+    @include hover-effect(color.scale($hover-background-color, $lightness: -40%));
+  }
+}
+
+a {
+  color: $link-color;
+}
+
+@include media-query(800px) {
+  .hide {
+    display: none;
+  }
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Wyrównanie do lewej */
+  }
+  
+  article {
+    // display: flex;
+    justify-content: flex-start; /* Wyśrodkowanie zawartości artykułu */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between; /* Wyrównanie do prawej */
+  }
+  
+  /* Równomierne rozmieszczenie elementów w kontenerze */
+  footer {
+    display: flex;
+    justify-content: flex-end; /* Równomierne rozłożenie elementów */
+  }
+/* Styles for <li> */
+li {
+  list-style-type: none;  /* Removes default bullet points */
+  padding: 12px 16px;     /* Adds padding inside each list item */
+  margin-bottom: 10px;    /* Adds space between each <li> */
+  border-radius: 8px;     /* Rounded corners for the <li> */
+  background-color: #ffffff; /* Background color for each list item */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  
+  @include hover-effect($hover-background-color);  /* Hover effect from mixin */
+  
+  @include media-query(800px) {
+    padding: 10px 14px;  /* Adjust padding on smaller screens */
+    margin-bottom: 8px;  /* Reduce space between <li> elements on small screens */
+  }
+}

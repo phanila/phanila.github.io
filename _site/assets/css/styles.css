@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  color: #333333;
+}
+
+details:hover {
+  background-color: #ADD8E6;
+}
+@media (max-width: 800px) {
+  details:hover {
+    background-color: rgb(56.4953271028, 153.6672897196, 185.3046728972);
+  }
+}
+
+a {
+  color: #1a73e8;
+}
+
+@media (max-width: 800px) {
+  .hide {
+    display: none;
+  }
+}
+header {
+  display: flex;
+  justify-content: center; /* Wyrównanie do lewej */
+}
+
+article {
+  justify-content: flex-start; /* Wyśrodkowanie zawartości artykułu */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Wyrównanie do prawej */
+}
+
+/* Równomierne rozmieszczenie elementów w kontenerze */
+footer {
+  display: flex;
+  justify-content: flex-end; /* Równomierne rozłożenie elementów */
+}
+
+/* Styles for <li> */
+li {
+  list-style-type: none; /* Removes default bullet points */
+  padding: 12px 16px; /* Adds padding inside each list item */
+  margin-bottom: 10px; /* Adds space between each <li> */
+  border-radius: 8px; /* Rounded corners for the <li> */
+  background-color: #ffffff; /* Background color for each list item */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  /* Hover effect from mixin */
+}
+li:hover {
+  background-color: #ADD8E6;
+}
+@media (max-width: 800px) {
+  li {
+    padding: 10px 14px; /* Adjust padding on smaller screens */
+    margin-bottom: 8px; /* Reduce space between <li> elements on small screens */
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
