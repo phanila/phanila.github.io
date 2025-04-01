@@ -1,12 +1,10 @@
 ---
 title: Aktorzy
 ---
-<label for="file">Procent aktorów pokazanych na tej stronie</label>
-<progress id="file" value="32" max="100"> 1% </progress>
-<h1>Lista aktorów</h1>
-<a href="https://www.filmweb.pl/ranking/person/actors/male">Źródło</a>
+<div class="flex flex-col p-4">
+<h1 class="text-4xl text-blue-700"><strong>Lista aktorów</strong></h1>
 
-<ol class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 mt-5">
+<ol class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
   {% for actor in site.actors %}
     <li class="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
   <a href="{{ actor.url }}" class="block">
@@ -28,3 +26,7 @@ title: Aktorzy
 </li>
   {% endfor %}
 </ol>
+
+
+<a href="https://www.filmweb.pl/ranking/person/actors/male">Źródło</a>
+</div>
