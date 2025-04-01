@@ -31,7 +31,7 @@ details {
   @include hover-effect($hover-background-color);
 
   @include media-query(800px) {
-    @include hover-effect(color.scale($hover-background-color, $lightness: -40%));
+    @include hover-effect(darken($hover-background-color, 40%));
   }
 }
 

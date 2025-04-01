@@ -10,7 +10,7 @@ details:hover {
 }
 @media (max-width: 800px) {
   details:hover {
-    background-color: rgb(56.4953271028, 153.6672897196, 185.3046728972);
+    background-color: rgb(46.4953271028, 126.4672897196, 152.5046728972);
   }
 }
 
